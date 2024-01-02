@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Video page of youtube, Lamborgini car ">
+  <meta name="keywords" content="trending video, viral video, car race, Lamborgini">
+  <title>Youtube</title>
+  <!--styles starts here-->
+  <link rel="stylesheet" href="./assets/styles/noramlize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="shortcut icon" href="./assets/images/yt-favicon.ico" type="image/x-icon">
+  <!--styles ends here-->
+</head>
+
+<body>
+  <!--header starts here-->
+  <header>
+    <nav class="flex-div primary-nav">
+      <!--youtube logo starts here-->
+      <div class="nav-left flex-div">
+        <a href="./index.html"><img src="./assets/images/yt-logo.png" alt="youtubeLogo" class="logo"></a>
+      </div>
+      <!--youtube logo ends here-->
+      <!--search box starts here-->
+      <div class="nav-middle flex-div">
+        <div class="search-box flex-div">
+          <input type="search" placeholder="Search" aria-label="search">
+          <img src="./assets/images/search.png" alt="search">
+        </div>
+        <button type="button"><img src="./assets/images/mic.PNG" alt="voice-search" class="mic-icon"></button>
+      </div>
+      <!--search box ends here-->
+      <div class="nav-right">
+        <a href="./about-us.html"><img src="./assets/images/about-us.webp" alt="about-us" class="about-us-icon"></a>
+        <a href="./contact-us.html"><img src="./assets/images/contact-us.webp" alt="contact-us"
+            class="contact-us-icon"></a>
+        <img src="./assets/images/sign-in-icon.PNG" alt="Sign-in" class="sign-in-icon">
+      </div>
+    </nav>
+  </header>
+  <!--header ends here-->
+  <main>
+    <div class="container play-container">
+      <div class="row">
+        <!--play main video starts here-->
+        <div class="play-video">
+          <video controls autoplay>
+            <source src="./assets/videos/video.webm" type="video/webm">
+          </video>
+          <div class="tags">
+            <a href="#">#Carrace</a> <a href="#">#Lambhorgini</a> <a href="#">#Beast</a>
+          </div>
+          <h3>"Unleashing the Power of the Italian Beast: A Lamborgini Experience"</h3>
+          <!--play video information starts here-->
+          <div class="play-video-info">
+            <div class="publisher">
+              <img src="./assets/images/cameron.png" alt="channel-creator">
+              <div>
+                <p>Lambhorgini</p>
+                <span>500K Subscribers</span>
+              </div>
+              <button type="button" id="subscribe-button">Subscribe</button>
+            </div>
+            <div>
+              <button type="button"><i class="fa-solid fa-thumbs-up"></i>16K | <i
+                  class="fa-solid fa-thumbs-down fa-flip-horizontal"></i></button>
+              <button type="button"><i class="fa-solid fa-share"></i>Share</button>
+            </div>
+          </div>
+          <!--play video information ends here-->
+          <!--video description box starts here-->
+          <div class="vid-description">
+            <p><b>4.6M Views 5 years ago</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat elit a ultricies suscipit.
+              Nunc
+              dignissim,
+              lectus eu rutrum ornare, magna enim faucibus nisi, ut imperdiet est purus ut nisi. Mauris ex nulla,
+              eleifend
+              ac varius
+              sit amet, pellentesque sed sapien. Nunc sit amet ligula eget est lobortis porta. Fusce varius dolor ut
+              ante
+              sodales, ut
+              lacinia dui viverra. Nulla mollis ex sit amet ligula pharetra sodales. Vestibulum ante ipsum primis in
+              faucibus orci
+              luctus et ultrices posuere cubilia curae; Donec lectus velit, pellentesque a neque semper, commodo
+              elementum
+              nisi.</p>
+            <hr>
+            <h4>143 Comments</h4>
+            <!--add comment starts here-->
+            <div id="add-comment">
+              <img src="./assets/images/cameron.png" alt="commentator">
+              <input type="text" placeholder="Write comments..." aria-label="add-comment">
+            </div>
+            <!--add comment ends here-->
+            <!--old comment starts here-->
+            <div class="old-comment">
+              <img src="./assets/images/cameron.png" alt="commentator">
+              <div>
+                <h3>GP Muthu<span>2 days ago</span></h3>
+                <p>That Lamborgini car is looking marvellous, ruthless and my favourite is black Lamborghini.</p>
+                <div class="acomment-action">
+                  <img src="./assets/images/like.png" alt="like">
+                  <span>44</span>
+                  <img src="./assets/images/dislike.png" alt="dislike">
+                  <span>2</span>
+                  <span>Reply</span>
+                  <a href="">All replies</a>
+                </div>
+              </div>
+            </div>
+            <div class="old-comment">
+              <img src="./assets/images/cameron.png" alt="commentator">
+              <div>
+                <h3>Virat Kohli<span>2 days ago</span></h3>
+                <p>That Lamborgini car is looking marvellous, ruthless and my favourite is black Lamborghini.</p>
+                <div class="acomment-action">
+                  <img src="./assets/images/like.png" alt="like">
+                  <span>44</span>
+                  <img src="./assets/images/dislike.png" alt="dislike">
+                  <span>2</span>
+                  <span>Reply</span>
+                  <a href="">All replies</a>
+                </div>
+              </div>
+            </div>
+            <!--old comment ends here-->
+          </div>
+          <!--video description box ends here-->
+        </div>
+        <!--play main video ends here-->
+        <!--right side video starts here-->
+        <div class="right-sidebar">
+          <!--side video #1-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail1.webp"
+                alt="side-video1"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+          <!--side video #2-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail2.webp"
+                alt="side-video2"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+          <!--side video #3-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail7.webp"
+                alt="side-video3"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+          <!--side video #4-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail4.webp"
+                alt="side-video4"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+          <!--side video #5-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail5.webp"
+                alt="side-video5"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+          <!--side video #6-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail6.webp"
+                alt="side-video6"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+          <!--side video #7-->
+          <div class="side-video-list">
+            <a href="./video.html" class="small-thumbnail"><img src="./assets/images/thumbnail8.webp"
+                alt="side-video7"></a>
+            <div class="vid-info">
+              <a href="#">Best channel to learn fight that help you have to be good fighter</a>
+              <p>Madan Gowri</p>
+              <p>15M views 2 months ago</p>
+            </div>
+          </div>
+        </div>
+        <!--right side video ends here-->
+      </div>
+    </div>
+  </main>
+  <!--footer starts here-->
+  <footer class="footerStyle">
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./about-us.html">About-us</a></li>
+        <li><a href="./contact-us.html">Contact-us</a></li>
+      </ul>
+      <p>Copyright &copy; 2023| Yasin L</p>
+    </nav>
+  </footer>
+  <!--footer ends here-->
+</body>
+
+</html>

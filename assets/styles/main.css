@@ -1,0 +1,574 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+/* global selector */
+* {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+/*nav bar content starts here*/
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-left .logo {
+  width: 130px;
+}
+
+/*nav middle styling starts here*/
+.nav-middle .mic-icon {
+  width: 28px;
+}
+
+.nav-middle button {
+  border: #000000;
+}
+
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+/*nav middle styling ends here*/
+
+/*nav right styling starts here*/
+.nav-right .sign-in-icon {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.nav-right .about-us-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  margin-right: 5px;
+}
+
+.nav-right .contact-us-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  margin-right: 5px;
+}
+
+/*nav right styling ends here*/
+
+/*nav bar content ends here*/
+
+/*header ends here*/
+
+/*suggested Videos content starts here*/
+.suggestedVideos {
+  position: sticky;
+}
+
+.sugggestedVideos ul {
+  padding: 0;
+}
+
+.suggestedVideos ul li {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 3px;
+  margin-right: 2px;
+}
+
+.suggestedVideos a {
+  color: #000;
+  text-decoration-color: aliceblue;
+}
+
+.suggestedVideos li:hover {
+  background-color: aliceblue;
+}
+
+#suggestedVideos li:active {
+  background-color: rgb(255, 145, 0);
+}
+
+/*suggested Videos content ends here*/
+
+/* home page video content starts here*/
+.container {
+  background: #f9f9f9;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  margin-top: 15px;
+}
+
+.vid-list .thumbnail {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.vid-list .flex-div {
+  align-items: flex-start;
+  margin-top: 7px;
+}
+
+.vid-list .flex-div img {
+  width: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.vid-info {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+
+.vid-info span {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.vid-info a {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*home page video content ends here*/
+
+/*video page content starts here*/
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.play-video {
+  flex-basis: 69%;
+}
+
+.right-sidebar {
+  flex-basis: 30%;
+}
+
+.play-video video {
+  width: 100%;
+}
+
+/*side video styling starts here*/
+.side-video-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.side-video-list img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.side-video-list .small-thumbnail {
+  flex-basis: 49%;
+}
+
+.side-video-list .vid-info {
+  flex-basis: 49%;
+}
+
+/*side video styling ends here*/
+.play-video .tags a {
+  color: #0000ff;
+  font-size: 13px;
+}
+
+.play-video h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.play-video .play-video-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.play-video .play-video-info button {
+  background-color: #ccc;
+  color: #000;
+  padding: 8px 17px;
+  border-radius: 18px;
+  font-size: 14px;
+  border: none;
+  margin-top: 15px;
+}
+
+.play-video .play-video-info a {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+/*publisher styling starts here*/
+.publisher {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.publisher div {
+  flex: 1;
+  line-height: 18px;
+}
+
+.publisher img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.publisher div p {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.publisher div span {
+  font-size: 13px;
+  color: #5a5a5a;
+}
+
+#subscribe-button {
+  background: #000;
+  color: #fff;
+  margin: 10px;
+  padding: 8px 22px;
+  display: flex;
+  justify-content: center;
+}
+
+/*publisher styling starts here*/
+
+/*video description styling starts here*/
+.vid-description {
+  padding-left: 55px;
+  margin: 15px 0;
+}
+
+.vid-description p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #5a5a5a;
+}
+
+.vid-description h4 {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin-top: 15px;
+}
+
+/*add comment styling starts here*/
+#add-comment {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+#add-comment img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#add-comment input {
+  border: 0;
+  outline: 0;
+  border: 1px solid #fff;
+  width: 100%;
+  padding-top: 10px;
+  background: transparent;
+}
+
+/*add comment styling ends here*/
+
+/*old comment styling starts here*/
+.old-comment {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.old-comment img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.old-comment h3 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.old-comment h3 span {
+  font-size: 12px;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.old-comment .acomment-action {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.old-comment .acomment-action img {
+  border-radius: 0;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.old-comment .acomment-action span {
+  margin-right: 20px;
+  color: #5a5a5a;
+}
+
+.old-comment .acomment-action a {
+  color: #0000ff;
+}
+
+/*old comment styling ends here*/
+
+/*video description styling ends here*/
+
+/*video page content ends here*/
+
+/* about us table starts here*/
+tr:hover {
+  background-color: cadetblue;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+table {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+/*about us table ends here*/
+
+/*contact-us styling starts here*/
+.contact-form {
+  border: solid 1px gray;
+  width: 42%;
+  margin: 0 auto;
+  padding: 25px;
+  box-shadow: 6px 6px 6px 1px #525252;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%,
+      rgba(29, 233, 253, 1) 35%, rgba(119, 252, 69, 1) 100%);
+  padding-bottom: 50px;
+}
+
+.contact-form .field-wrapper {
+  padding: 16px;
+}
+
+.contact-form .field-wrapper label {
+  width: 130px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+
+.contact-form .field-wrapper input,
+.contact-form .field-wrapper textarea {
+  width: 300px;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.contact-form .buttons-wrapper {
+  margin-left: 150px;
+}
+
+.contact-form .buttons-wrapper button {
+  padding: 10px 26px;
+  border-radius: 6px;
+}
+
+.contact-form .buttons-wrapper button[type="reset"] {
+  background-color: coral;
+}
+
+.contact-form .buttons-wrapper button[type="submit"] {
+  background-color: rgb(54, 230, 0);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: rgb(198, 198, 198);
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 6px 5px 10px rgba(0, 0, 0, 0.959);
+}
+
+/*contact-us styling ends here*/
+
+/*about content starts here*/
+.about-jumbotron {
+  background: url(../images/bg-about.jpg) no-repeat;
+  background-size: cover;
+  height: 560px;
+}
+
+.about-jumbotron h1 {
+  color: rgb(250, 0, 0);
+  text-align: center;
+  padding-top: 15%;
+  font-size: 50px;
+}
+
+.about-jumbotron h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+}
+
+/*about content ends here*/
+
+/*footer starts here*/
+.footerStyle {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#footerNav ul li {
+  margin: 0 auto;
+  display: block;
+}
+
+/*footer ends here*/
+
+/*page responsive styling starts here*/
+@media (max-width: 844px) {
+  .nav-right img {
+    display: none;
+  }
+
+  .nav-right .sign-in-icon {
+    display: block;
+    width: 60px;
+  }
+
+  .nav-right .about-us-icon {
+    display: none;
+  }
+
+  .nav-right .contact-us-icon {
+    display: none;
+  }
+
+  .nav-middle .search-box input {
+    width: 90px;
+  }
+
+  .nav-middle .mic-icon {
+    display: none;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .suggestedVideos {
+    font-size: 8px;
+    display: none;
+  }
+
+  .play-video {
+    flex-basis: 100%;
+  }
+
+  .right-sidebar {
+    flex-basis: 100%;
+  }
+
+  .play-container {
+    padding-left: 5%;
+  }
+
+  .vid-description {
+    padding-left: 0;
+  }
+
+  .play-video .play-video-info a {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+}
+
+/*page responsive styling ends here*/

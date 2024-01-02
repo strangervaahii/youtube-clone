@@ -1,0 +1,3 @@
+<!-- TODO: explore minlength and maxlength for phone number and also for textarea -->
+<!-- TODO: Refer Youtube Video page and have the elements that are under the video title -->
+add one table in about us page

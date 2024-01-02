@@ -1,0 +1,10 @@
+add one table in about us page
+explore minlength and maxlength in 
+
+https://www.w3schools.com/css/css_specificity.asp
+https://css-tricks.com/precedence-css-order-css-matters/
+
+pixel parellel by htmlburger
+what font
+
+width of the element = content width +padding + border width + margin
